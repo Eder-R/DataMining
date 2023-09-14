@@ -1,0 +1,64 @@
+1.
+   a. Classificação:
+      - Detecção de Spam: Classificar e-mails como spam ou não spam com base em características como palavras-chave, remetente, formatação, etc.
+      - Diagnóstico Médico: Classificar exames médicos como normais ou anormais com base em características clínicas.
+
+   b. Regressão:
+      - Previsão de Vendas: Prever as vendas futuras de um produto com base em dados históricos de vendas, preços, publicidade, etc.
+      - Previsão de Preços Imobiliários: Estimar o preço de uma propriedade com base em características como tamanho, localização, número de quartos, etc.
+
+   c. Clusterização:
+      - Segmentação de Clientes: Agrupar clientes em grupos com base na amostra, (em seu comportamento de compra) permitindo direcionar estratégias de marketing específicas para cada grupo.
+      - Agrupamento de Documentos: Agrupar documentos de texto semelhantes para possibilitar a analise dos mesmos sobre a ordem dos grupos onde estão inseridos.
+
+   d. Associação:
+      - Recomendações de Produtos: Identificar padrões de associação entre produtos frequentemente comprados juntos, para recomendar produtos relacionados aos clientes.
+      - Análise de Cesta de Compras: Descobrir associações entre itens em carrinhos de compras de supermercado para otimizar o layout da loja.
+
+   e. Detecção de Anomalias:
+      - Detecção de Fraudes em Cartões de Crédito: Identificar transações incomuns ou suspeitas com base em padrões históricos de gastos do cliente.
+      - Monitoramento de Sistemas de TI: Identificar comportamentos anômalos em registros de log para detectar possíveis ameaças de segurança.
+
+2.
+   Problema: A loja de varejo online deseja melhorar a retenção de clientes e, para isso, precisa entender melhor o comportamento dos clientes em relação aos descontos oferecidos.
+
+   Questões Analíticas (QAs):
+
+   QA 1 - Específica (Specific):
+      - Pergunta: Qual é o impacto da oferta de descontos específicos para clientes fiéis na taxa de retenção?
+      - Razão: Esta pergunta se concentra em identificar o efeito de descontos específicos em clientes fiéis, tornando o problema mais específico.
+
+   QA 2 - Mensurável (Measurable):
+      - Pergunta: Como podemos medir a taxa de retenção dos clientes e o aumento nas vendas após a implementação dos descontos?
+      - Razão: Esta pergunta busca estabelecer métricas claras para avaliar o sucesso da estratégia de descontos.
+
+   QA 3 - Alcançável (Attainable):
+      - Pergunta: Quais recursos e dados precisamos coletar e analisar para implementar os descontos de forma eficaz?
+      - Razão: Esta pergunta considera a viabilidade de coletar dados relevantes e disponibilizar os recursos necessários para a implementação bem-sucedida da estratégia de descontos.
+  
+3. 
+   Atividade 1: Entendimento dos Dados
+
+   Nesta fase, o objetivo é adquirir uma compreensão sólida do conjunto de dados e do domínio do problema. Aqui estão algumas ações específicas que podem ser realizadas:
+
+   - Coleta de Dados Brutos: Os dados brutos podem ser coletados de várias fontes, incluindo registros de vendas, registros de clientes, informações de produtos, histórico de descontos, entre outros.
+
+   - Exploração Inicial: É importante realizar uma exploração inicial dos dados brutos para identificar quais variáveis estão disponíveis, a qualidade dos dados e possíveis lacunas. Por exemplo, você pode verificar se há valores ausentes, outliers ou inconsistências nos dados.
+
+   - Entrevistas com Stakeholders: Realize entrevistas com as partes interessadas, como a equipe de marketing e vendas, para entender melhor as expectativas e as questões que desejam que sejam abordadas com a análise.
+
+   Atividade 2: Preparação dos Dados
+
+   Nesta fase, o objetivo é preparar os dados brutos para análise, de forma que eles possam ser usados eficazmente para responder às questões analíticas. Aqui estão algumas ações específicas:
+
+   - Limpeza de Dados: Trate valores ausentes, outliers e dados inconsistentes. Por exemplo, substitua valores ausentes, aplique transformações para corrigir outliers e padronize os dados, se necessário.
+
+   - Integração de Dados: Se os dados vierem de diferentes fontes, é importante integrá-los de forma a criar um único conjunto de dados coerente.
+
+   - Seleção de Variáveis: Selecione as variáveis relevantes que serão usadas na análise com base nas Questões Analíticas (QAs) definidas. Por exemplo, escolha as variáveis relacionadas a vendas, clientes e descontos.
+
+   - Transformação de Dados: Aplique transformações nos dados, se necessário. Isso pode incluir codificação de categorias, agregação de dados temporais, etc.
+
+   - Divisão de Dados: Divida os dados em conjuntos de treinamento e teste para modelagem posterior, garantindo que haja dados suficientes para treinar e testar modelos.
+
+   - Engenharia de Recursos: Crie novas variáveis ou recursos com base no conhecimento do domínio. Por exemplo, criar uma variável que represente o histórico de compras de um cliente.
